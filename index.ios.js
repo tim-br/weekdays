@@ -1,4 +1,4 @@
-// import some code
+// // import some code
 var React = require('react-native');
 var AppRegistry = React.AppRegistry;
 var Text = React.Text;
@@ -9,13 +9,13 @@ var Weekdays = React.createClass({
   render: function(){
     return <View>
       <Text>
-        Days Of The Week
+        Days Of The Week:
       </Text>
     </View>
   }
 });
 
 // Show the react component on the screen
-AppRegistry.registerComponent('weekdays', function(){
+AppRegistry.registerComponent('myWeekdays', function(){
   return Weekdays
 });
